@@ -34,12 +34,6 @@ public class Avl{
         i.esq = balanciaEsq(i.esq);
         return balanciaDir(i);
        }
-
-       No balancear(No i){
-        if(i.dir != null && i.esq != null){
-            
-        }
-       }
        
 
         void printaCentral(){
